@@ -1,0 +1,17 @@
+{
+    "config_class": "ActorCriticConfig",
+    "fixed_parameters": {
+        "exp_name": "ActorCritic",
+        "env_name": "MountainCar-v0",
+        "action_noise": 0.0,
+        "representation": "tile_code",
+        "tiles": 8,
+        "num_tilings": 8,
+        "mem_size": 4096,
+        "tile_combinations": false,
+        "max_steps": 40000,
+        "gamma": 1.0,
+        "alpha_w": 0.3,
+        "alpha_theta": 0.1
+    }
+}
